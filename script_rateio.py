@@ -1,17 +1,16 @@
-import win32com.client
-import subprocess
-import pandas as pd
-from UserID2 import login,senha
-import os
 import glob
+import os
 import shutil
+import subprocess
 import time
-import win32clipboard
-import pyperclip
-import re
+
 import numpy as np
-import sys
-from datetime import datetime
+import pandas as pd
+import win32clipboard
+import win32com.client
+
+from UserID2 import login, senha
+
 # ACESSO AS PASTAS PARA RATEIO
 path = r'C:\Users\paulo.souza\Desktop\Rateio\Maio'
 temp_path = r'C:\Users\paulo.souza\Desktop\Rateio\Maio\Subindo'
